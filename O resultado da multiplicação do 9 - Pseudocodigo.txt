@@ -1,0 +1,17 @@
+EX.01 - Dadas as regras do truque da tabuada do 9, escreva a solução algorítmica das 3 maneiras que conhecemos: 
+Pseudocódigo
+
+Regras: O resultado da multiplicação do 9 por qualquer valor n é calculado por dígito, da seguinte maneira:
+digito1 = n-1 
+digito2 = 10-n 
+O resultado final deve multiplicar o primeiro dígito (a dezena) por 10 e somar com o segundo dígito (a unidade)
+9 x n = digito1 x 10 + digito2
+Ao escrever o algoritmo, lembre-se de seguir o passo a passo de entrada (leitura dos dados necessários), processamento (operações listadas acima) e saída (impressão do resultado final).
+
+
+Resolução:
+1 - Início;
+2 - Leia n;#Entrada
+3 - R = ((n-1)*10)+(10-1);#Processamento
+4 - Imprima R; #Saída
+5 - Fim
